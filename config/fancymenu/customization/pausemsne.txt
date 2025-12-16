@@ -1,0 +1,49 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiIngameMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  action = hidebutton
+}
+
+customization {
+  hoversound = mods/rasierung.wav
+  orientation = element
+  restartbackgroundanimations = true
+  backgroundhovered = mods/rasierung.png
+  label =     
+  clicksound = mods/rasierung.wav
+  loopbackgroundanimations = true
+  hoverlabel = 
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
+  x = 102
+  width = 98
+  action = addbutton
+  actionid = 7222343f-6819-46e1-bab1-9bbc6c3ac6e61765480284163
+  y = 0
+  height = 20
+}
+
+customization {
+  path = mods/xmas25logo.png
+  orientation = top-centered
+  x = -137
+  width = 275
+  actionid = 3b931066-bf66-47c7-9bc3-96b8749bb5a61765480415558
+  action = addtexture
+  y = 17
+  height = 68
+}
+

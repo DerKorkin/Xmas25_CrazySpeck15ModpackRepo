@@ -1,0 +1,45 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiWorldSelection
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=582972%
+  orientation = element
+  orientation_element = vanillabtn:504948
+  x = 78
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=504972%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=424972%
+  orientation = element
+  orientation_element = vanillabtn:346948
+  x = 79
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=424972%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
